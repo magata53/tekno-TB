@@ -42,13 +42,13 @@ export default function AuditLogRoutes($stateProvider) {
             }
         })
         .state('scheduler', {
-            url: 'http://localhost:3030',
+            url: 'http://localhost/scheduler',
             module: 'private',
             auth: ['TENANT_ADMIN'],
             external: true
         })
         .state('report', {
-            url: 'http://localhost:4040',
+            url: 'http://localhost/report',
             module: 'private',
             auth: ['TENANT_ADMIN'],
             external: true
