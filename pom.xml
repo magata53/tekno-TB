@@ -88,7 +88,7 @@
         <bucket4j.version>4.1.1</bucket4j.version>
         <fst.version>2.57</fst.version>
         <antlr.version>2.7.7</antlr.version>
-        <snakeyaml.version>1.23</snakeyaml.version>
+        <snakeyaml.version>1.31</snakeyaml.version>
     </properties>
 
     <modules>
